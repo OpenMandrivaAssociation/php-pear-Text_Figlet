@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.0.1
-Release:	%mkrel 4
+Release:	%mkrel 5
 Summary:	Render text using FIGlet fonts
 License:	PHP License
 Group:		Development/PHP
@@ -15,7 +15,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	php-pear
-BuildRoot:	%{_tmppath}/%{name}-%{version}
+
 
 %description
 Engine for use FIGlet fonts to rendering text.
